@@ -10,12 +10,6 @@ __pycache__/
 venv/
 __pycache__/
 
-# Archivos generados por el script
-*.png
-*.pdf
-
-# Archivos del sistema operativo
-.DS_Store
 
 # Distribution / packaging
 .Python

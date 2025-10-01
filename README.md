@@ -11,17 +11,17 @@ El script genera automáticamente un informe en PDF con los siguientes análisis
 ### 1. Valor Promedio por Marca
 Este gráfico compara el posicionamiento de precios entre las diferentes marcas, identificando a los líderes del mercado en términos de valor.
 
-![Gráfico de Valor Promedio por Marca](grafico_valor_marca.png)
+![Gráfico de Valor Promedio por Marca](img/grafico_valor_marca.png)
 
 ### 2. Distribución de Vehículos por Año
 Permite entender la composición y antigüedad del parque automotor analizado, mostrando la concentración de modelos por año.
 
-![Gráfico de Distribución por Año](grafico_distribucion_anio.png)
+![Gráfico de Distribución por Año](img/grafico_distribucion_anio.png)
 
 ### 3. Top 5 Vehículos Más Valiosos
 Identifica los activos de mayor valor en la base de datos, destacando los vehículos premium o de mayor demanda.
 
-![Gráfico del Top 5 de Vehículos más Valiosos](grafico_top_5.png)
+![Gráfico del Top 5 de Vehículos más Valiosos](img/grafico_top_5.png)
 
 ---
 
@@ -38,7 +38,7 @@ Identifica los activos de mayor valor en la base de datos, destacando los vehíc
 
 Este proyecto no es solo un resultado final, sino la demostración de un flujo de trabajo completo para el tratamiento y análisis de datos enteramente dentro de Excel. El objetivo es transformar una simple lista de datos en un reporte interactivo y profesional.
 
-El proceso se estructuró en las siguientes hojas de cálculo para mayor claridad y control:
+El proceso se estructuró en las siguientes hojas de calculo para mayor claridad y control:
 
 ### 1. **Hoja: `1 - Datos Crudos`**
 El punto de partida. Aquí se encuentra la base de datos original sin ninguna modificación. Preservar los datos crudos es una buena práctica que garantiza la integridad de la fuente de información.
@@ -65,4 +65,4 @@ Este enfoque demuestra un proceso de análisis de datos robusto, desde la limpie
 
 Para explorar el dashboard interactivo, las tablas dinámicas y todo el proceso de análisis, puedes descargar el libro de Excel completo desde el siguiente enlace:
 
-### [➡️ **Descargar `Dashboard-de-Gestion-Automotor.xlsx`**](Dashboard-de-Gestion-Automotor.xlsx)
+### [➡️ **Descargar `Dashboard-de-Gestion-Automotor.xlsx`**](excel/Dashboard%20de%20Gestión%20Automotor.xlsx)
