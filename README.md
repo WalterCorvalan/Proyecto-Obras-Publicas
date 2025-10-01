@@ -34,29 +34,35 @@ Identifica los activos de mayor valor en la base de datos, destacando los vehíc
 
 ---
 
-## ⚙️ **Cómo Usar este Proyecto**
+## 📊 **Proceso de Creación del Dashboard en Excel**
 
-Para replicar este análisis, sigue los siguientes pasos:
+Este proyecto no es solo un resultado final, sino la demostración de un flujo de trabajo completo para el tratamiento y análisis de datos enteramente dentro de Excel. El objetivo es transformar una simple lista de datos en un reporte interactivo y profesional.
 
-1.  **Clona el repositorio:**
-    ```bash
-    git clone [URL_DE_TU_REPOSITORIO]
-    ```
+El proceso se estructuró en las siguientes hojas de cálculo para mayor claridad y control:
 
-2.  **Crea y activa un entorno virtual:**
-    ```bash
-    python -m venv venv
-    venv\Scripts\activate
-    ```
+### 1. **Hoja: `1 - Datos Crudos`**
+El punto de partida. Aquí se encuentra la base de datos original sin ninguna modificación. Preservar los datos crudos es una buena práctica que garantiza la integridad de la fuente de información.
 
-3.  **Instala las dependencias necesarias:**
-    ```bash
-    pip install pandas matplotlib seaborn openpyxl fpdf2
-    ```
+### 2. **Hoja: `2 - Limpieza y Preparación`**
+En esta fase, se tomaron los datos crudos y se prepararon para el análisis:
+* **Corrección de Encabezados:** Se ajustaron los nombres de las columnas para que fueran claros y profesionales (ej. `anio` -> `Año`).
+* **Formato de Datos:** Se aplicó el formato de moneda a los valores para facilitar su lectura.
+* **Conversión a Tabla de Excel:** El rango de datos se convirtió en una Tabla de Excel (Ctrl + T), un paso crucial que hace que los datos sean dinámicos y fáciles de manejar para las tablas dinámicas y gráficos.
 
-4.  **Ejecuta el script principal:**
-    ```bash
-    python generar_reporte.py
-    ```
+### 3. **Hoja: `3 - Análisis (Tablas Dinámicas)`**
+Utilizando los datos limpios, se crearon Tablas Dinámicas para resumir la información y obtener los primeros insights, como el **valor promedio de los vehículos por marca y año**.
 
-Al finalizar, se habrán creado en la carpeta los archivos de los gráficos (`.png`) y el informe consolidado `Reporte_Mercado_Automotor.pdf`.
+### 4. **Hoja: `4 - Dashboard`**
+Aquí es donde todos los elementos se unen para crear el reporte final:
+* **Gráficos Dinámicos:** Se generaron gráficos a partir de las tablas dinámicas para visualizar las tendencias, como la evolución de los precios.
+* **Segmentación de Datos (Slicers):** Se añadieron filtros interactivos para `Marca`, `Modelo` y `Año`. Esto permite al usuario explorar los datos de forma intuitiva, haciendo clic en los botones para filtrar la información que el gráfico muestra en tiempo real.
+
+Este enfoque demuestra un proceso de análisis de datos robusto, desde la limpieza inicial hasta la creación de un dashboard interactivo y funcional.
+
+---
+
+## 📥 **Descargar el Archivo Final**
+
+Para explorar el dashboard interactivo, las tablas dinámicas y todo el proceso de análisis, puedes descargar el libro de Excel completo desde el siguiente enlace:
+
+### [➡️ **Descargar `Dashboard-de-Gestion-Automotor.xlsx`**](Dashboard-de-Gestion-Automotor.xlsx)
